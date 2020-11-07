@@ -1,0 +1,16 @@
+package lll;
+
+import javax.swing.JOptionPane;
+
+public class HomeWork15 {
+	public static void main(String[] args) {
+  
+  	 int number = Integer.parseInt(JOptionPane.showInputDialog("please enter a 2 digit number"));
+//		 int myNum =((int)number/10) + (number%10) * 10;
+//			JOptionPane.showMessageDialog(null, " the number you enterd is " + " " + number);
+////
+//		JOptionPane.showMessageDialog(null, "your upside down number is" + " " + myNum);
+////
+//		System.out.println("your upside down number is" + " " + myNum);
+	}
+  }
