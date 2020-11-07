@@ -1,0 +1,23 @@
+// page 15, Exercise number 10
+package lll;
+
+import javax.swing.JOptionPane;
+
+public class HomeWork15 {
+	public static void main(String[] args) {
+    double DoubleValue  = Double.parseDouble(JOptionPane.showInputDialog("please enter a number"));
+      int IntValue = (int) DoubleValue;        
+      IntValue = IntValue + 2;
+      IntValue = IntValue - (IntValue%2);
+
+    JOptionPane.showMessageDialog(null, " the number you enterd is " + " " + DoubleValue);
+    JOptionPane.showMessageDialog(null, "your new number is" + " " + IntValue);
+    System.out.println("your new number is" + " " + IntValue);
+
+
+
+	
+}
+	
+}
+	
