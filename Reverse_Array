@@ -1,0 +1,34 @@
+package HomeWork4.Lab10;
+
+public class Reverse_Array {
+
+	public static void main(String[] args) {
+		int[] array = myMain4.duplicate();
+		original(array);
+		reversedArray(array);
+	}
+
+	public static void original(int[] array) {
+		System.out.println(" ");
+		System.out.println("Original Array:");
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + " ");
+		}
+	}
+
+	public static void reversedArray(int[] array) {
+		System.out.println(" ");
+		System.out.println("reversed order:");
+		for (int i = 0; i < array.length / 2; i++) {
+			int temp = array[i];
+			array[i] = array[array.length - 1 - i];
+			array[array.length - 1 - i] = temp;
+//			System.out.print(array[i] + " ");
+		}
+
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + " ");
+		}
+
+	}
+}
